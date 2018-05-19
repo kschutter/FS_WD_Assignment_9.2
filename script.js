@@ -28,9 +28,9 @@ plane2.capacity += 10;
 plane3.capacity += 10;
 
 // Delete all planes max speed
-plane1.maxSpeed = null;
-plane2.maxSpeed = null;
-plane3.maxSpeed = null;
+delete plane1.maxSpeed;
+delete plane2.maxSpeed;
+delete plane3.maxSpeed;
 
 // Set all planes average speed to 600
 plane1.avgSpeed = 600;
